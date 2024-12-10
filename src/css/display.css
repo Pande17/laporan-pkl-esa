@@ -17,16 +17,14 @@ nav {
 	padding: 5vh 4vh;
 	display: flex;
 	background-color: rgb(22, 25, 29);
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	position: sticky;
 	top: 0;
 	z-index: 1000;
-	/* box-shadow: 0 0 10px 0 #00ffee; */
 }
 
 section#hero {
-	background-color: rgb(22, 25, 29);
 	display: grid;
 	height: 90vh;
 	padding: 0rem 3rem;
@@ -38,16 +36,26 @@ section#about {
 }
 
 section#company {
-	padding: 100px;
+	background-color: rgb(22, 25, 29);
+	padding: 100px 100px 50px 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
+.information {
+	background-color: rgb(22, 25, 29);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 100px 100px 50px;
+}
+
 section#project {
 	display: grid;
-    padding-top: 100px;
+	padding-top: 100px;
 }
 
 footer {

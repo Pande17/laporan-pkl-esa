@@ -1,6 +1,7 @@
 nav h1 {
 	display: inline;
 	font-size: 150%;
+	margin-right: auto;
 }
 
 nav ul {
@@ -8,6 +9,7 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	display: flex;
+	justify-content: center;
 }
 
 nav a {
@@ -15,7 +17,7 @@ nav a {
 	font-size: 150%;
 	color: white;
 	text-decoration: none;
-	margin: 20px;
+	margin: 0 15px;
 }
 
 nav ul li a::after {
@@ -36,7 +38,6 @@ nav ul li a:hover::after {
 
 .title {
 	font-size: 5em;
-	color: white;
 }
 
 .title-section {
@@ -55,6 +56,6 @@ nav ul li a:hover::after {
 }
 
 .glowsy-text {
-	color: #00ffee;
-	text-shadow: 0 0 25px #00ffee;
+	color: #000;
+	text-shadow: 0 0 25px #fff;
 }
